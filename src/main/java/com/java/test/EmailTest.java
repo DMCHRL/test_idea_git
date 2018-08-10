@@ -47,6 +47,7 @@ public class EmailTest {
             Map<String, Object> model = new HashMap<String, Object>();
             model.put("username", "测试");
             model.put("username", "哈哈");
+            model.put("username", "我是DMCHHH");
 
             //修改 application.properties 文件中的读取路径
             //FreeMarkerAutoConfiguration configurer = new FreeMarkerAutoConfiguration();
